@@ -1,0 +1,332 @@
+body {
+    font-size: 14px;
+	background-color: #F1F1F2;
+  }
+  a{
+    color: #317eac;
+  }
+.row {
+margin-left: -15px;
+margin-right: 0px;
+}
+  ul li{
+    list-style: none;
+  }
+.igniteHeader {
+  background: #317eac;
+}
+.igniteHeader .navbar-brand {
+  color: #fff;
+}
+.igniteHeader ul{
+ float: right;
+ margin-right: 20px;
+}
+.ibmLogo {
+    width: 50px;
+    height: 20px;
+    float: left;
+    margin-right: 10px;
+}
+.global-header-right .help a{ display:inline-block; font-size:0; width:24px; height:24px; overflow:hidden; background-image:url(../images/icon-header-right.png); background-position:-24px 0; padding:0; margin:10px 0;}
+.global-header-right .help a:hover{ background-position:-24px -24px; }
+
+/* Sidebar Styles */
+
+.igniteSidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 300px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: #fff;
+    box-shadow: 4px 4px 6px #F1F1F2;
+    font-size: 16px;
+    height: 710px;
+}
+.igniteSidebar-nav .profileHeader{
+    padding: 20px 66px;
+}
+.igniteSidebar-nav .profileHeader img{
+    margin-left: 14px;
+}
+
+.igniteSidebar-nav li {
+    text-indent: 20px;
+    line-height: 40px;
+    border-bottom: 1px solid #F1F1F2;
+}
+
+.igniteSidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+.igniteSidebar-nav li a:hover {
+    text-decoration: none;
+    background-color: #F1F1F2;
+}
+
+.igniteSidebar-nav li a:active,
+.igniteSidebar-nav li a:focus {
+    text-decoration: none;
+}
+.igniteSidebar-nav li.active{position:relative;}
+.igniteSidebar-nav li.active a{background-color:#F1F1F2;}
+.igniteSidebar-nav > .igniteSidebar-brand {
+    height: 65px;
+    font-size: 18px;
+    line-height: 60px;
+}
+
+.igniteSidebar-nav > .igniteSidebar-brand a {
+    color: #999999;
+}
+
+.igniteSidebar-nav > .igniteSidebar-brand a:hover {
+    color: #fff;
+    background: none;
+}
+
+/*User Registration*/
+#addNewUser {
+    width: 752px;
+    height: 100px;
+    border: 2px solid #317eac;
+    margin:50px 0px;
+    padding: 25px;
+    font-size: 32px;
+    color: #2fa4e7;
+}
+#addNewUser img {
+    margin-right: 20px;
+}
+#userDetails {
+    width: 752px;
+    height: 400px;
+    border: 2px solid #317eac;
+    background: #fff;
+}
+
+#custom-search-input input{
+    border: 0;
+    box-shadow: none;
+    padding: 3px;
+    border-bottom:solid 1px #E4E4E4;
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+#custom-search-input button{
+    margin: 2px 0 0 0;
+    background: none;
+    box-shadow: none;
+    border: 0;
+    color: #666666;
+    padding: 0 8px 0 10px;
+}
+
+#custom-search-input button:hover{
+    border: 0;
+    box-shadow: none;
+}
+
+#custom-search-input .glyphicon-search{
+    font-size: 23px;
+}
+/*custom*/
+
+#userDetails .input-group {
+    float: left;
+
+}
+#custom-search-input .col-md-2{    
+    padding: 15px 16px 15px 45px;
+}
+#userDetails table tr td{
+    text-align: center;
+    padding: 5px;
+}
+
+#userDetails table tr:first-child{
+    color: black;
+}
+#userDetails table tr:nth-child(odd){
+    background: #F1F1F2;
+}
+#userDetails table tr:nth-child(even){
+    background: #fff;
+}
+#userDetails table tr td.col1{
+width:50px;
+}
+#userDetails table tr td.col2{
+width:300px;
+}
+#userDetails table tr td.col3{
+width:200px;
+}
+#userDetails table tr td.col4{
+width:200px;
+}
+#removeUser{
+  padding: 15px 16px 15px 12px;
+}
+#removeUser img{
+  width: 32px;
+  height: 28px;
+}
+
+
+.addUserSection {
+    margin-top: 20px;
+}
+.applicationList #addApplication {
+    width:200px;
+    height: 200px;
+    border: 1px solid #fff;
+    padding: 32px;
+}
+.applicationList #addApplication p{
+    margin-left:20px;
+}
+.applicationList h4 {
+    margin-bottom: 50px;
+}
+
+#formAddNewUser table tr td{
+ width: 200px;
+ height: 50px;
+ font-size: 14px;
+}
+.applications{
+    float: left;
+    margin:20px;
+}
+.applications {
+    width:200px;
+    height: 200px;
+    border: 1px solid #fff;
+    padding: 12px;
+}
+.applications h4{
+    margin-bottom: 6px;
+}
+.applications ul{
+    padding: 20px;   
+}
+.applications ul li{
+    list-style:  circle;   
+}
+.applications #view_app{
+    padding: 20px; 
+    border-top: 3px solid #fff;  
+    text-align: center;
+}
+button.btn-ignite {    
+    padding: 10px 30px;
+    background-color: #317eac;
+}
+button.btn-ignite a{
+    text-decoration: none;
+    color: #fff;
+}
+.addUserfooter button {
+    float: right;
+}
+.applicationListFooter {
+    padding-top: 100px;
+    clear: both;
+}
+.applicationListFooter button#addUserfooterBack {
+    float: left;
+
+}
+.applicationListFooter button#addUserfooterCreateUser {
+    float: right;
+
+}
+#createForm form ul{
+    padding: 0;
+}
+#createForm h4{
+    margin-top: 30px;
+}
+#createForm select{
+    width: 560px;
+    height: 44px;
+}
+#createForm .form-group div{
+    float: left;
+    margin: 44px;
+}
+#createForm .addApplicationfooter {
+    clear: both;
+}
+#createForm .addApplicationfooter {
+    padding: 2px;
+}
+#createForm .addApplicationfooter button{
+    padding: 14px 130px;
+    background-color: #fff;
+    border: 2px solid #317eac;
+}
+#createForm .addApplicationfooter button a{
+    color: black ;
+}
+#createForm .addApplicationfooter button.add-app{
+    border-left: 0px;
+}
+#myElem {
+    margin-top: 20px;
+}
+#userDetails .section {
+    height: 276px;
+    padding: 0px;
+}
+#userDetails .footer {
+    padding: 0px;
+}
+#userDetails .footer button{
+    padding: 20px 170px;
+    background-color: #fff;    
+    border-top: 2px solid #317eac;
+}
+#userDetails .footer .btn-ignite-edit {
+    border-right: 2px solid #317eac;
+}
+#userDetails .footer .btn-ignite-edit {
+    border-right: 2px solid #317eac;
+}
+
+.editUserSection {
+    margin-top: 20px;
+    height: 500px;
+}
+
+.editUserSection #EditRoles {
+    margin-bottom: 30px;
+}
+.editUserSection #EditRoles button {
+    margin-right: 20px;
+}
+.editUserSection #EditApps button{
+    margin-right: 20px;
+}
+.editUserSection #EditApps .form-group{
+    width: 200px;
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 20px;
+}
+.editUserfooter button{
+    margin-top: 20px;
+    float: right;
+}
+.editUserSection #EditRoles form {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+}
